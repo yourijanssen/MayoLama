@@ -1,0 +1,45 @@
+
+#topSection {
+    display: flex;
+     padding: 10px;
+    border-width: 2px;
+    font-size: large;
+    width: fit-content;
+    float: inline-start;
+    max-width: 1000;
+    margin: auto;
+}
+
+.info-lama {
+    border-radius: 8px;
+    border: 4px;
+    margin: 20px 20px 20px 20px;
+    padding-top: 75px;
+    padding-left: 3px;
+}
+
+.img {
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 8px;
+    height: 280px;
+    width: 380px;
+}
+
+.info-text {
+    width: 380px;
+    height: 180px;
+    padding: 10px;
+    margin: 0;
+    text-align: start;
+}
+
+.our-lama{
+    text-align: center;
+    background-color: #749C75;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    color: #E3F2E0;
+
+}

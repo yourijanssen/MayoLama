@@ -1,0 +1,131 @@
+#contactRoot {
+    position: relative;
+    width: 710px;
+    height: 375px;
+    max-width: 720px;
+    margin: auto;
+    top: 50px;
+    background-color: #034C3C;
+    border-radius: 20px;  
+    display: flex;
+    flex-direction: column;
+}
+
+#contactTitle {
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#contactInputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactInput {
+    width: 200px;
+    height: 30px;  
+    border-radius: 20px;
+    margin: 5px;
+    padding-left: 20px;
+    margin-left: 20px;
+    font-size: 15px; 
+    
+}
+
+#buttonContainer {
+    margin-top: 20px;
+}
+
+.button {
+    width: 150px;
+    position: center;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 20px;
+    color: white;
+    border: 3px solid #034C3C;
+    background-color: #749C75;
+    color: #E3F2E0;
+    font-family: inherit;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#button:hover {
+    border: 3px solid #E3F2E0;
+}
+
+#textAreaContainer {
+    flex-direction: column;
+    margin-left: 250px;
+    margin-top: -182px;
+}
+
+#textArea {
+    border-radius: 20px;
+    margin-left: 20px;
+    width: 400px;
+    height: 200px;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 15px;
+    font-family: 'Homanje' sans-serif;
+}
+
+.popupHidden {
+    width: 710px;
+    height: 130px;
+    background-color: #749C75;
+    border-radius: 20px;
+    margin-top: 35px;
+    visibility: hidden;  
+    margin-top: 30px;	
+}
+
+.popupSucces {
+    width: 710px;
+    height: 65px;
+    display: flex;
+    background-color: #749C75;
+    color: #E3F2E0;
+    border-radius: 20px;
+    justify-content: center;
+    margin-top: 35px;
+    font-size: medium;
+}
+
+.popupFail {
+    width: 710px;
+    height: 65px;
+    display: flex;
+    background-color: #749C75;
+    color: #ce2626;
+    border-radius: 20px;
+    justify-content: center;
+    margin-top: 35px;
+    font-size: medium;
+}
+
+
+#contactLamaPic {
+    width: 700px;
+    margin: auto;
+    margin-top: -100px;
+    padding: 0px;
+}
+
+#contactLamaPic.img{
+    height: 200px;
+    width: 100px;
+}
+
+.our-lama{
+    text-align: center;
+    background-color: #749C75;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    color: #E3F2E0;
+    margin-top: 100px;
+ }

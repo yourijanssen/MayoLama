@@ -1,0 +1,64 @@
+#lamaProductArea.lamaProductArea{
+    padding-top: 30px;
+    padding-left: 100px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 300px 300px 300px;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.lamaCard{
+    width: 400px;
+    height: 300px;
+    background-color: #749C75;
+    border: #749C75 solid 3px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.lamaCard:hover{
+    border: #034C3C solid 3px;
+    cursor: pointer;
+}
+
+.lamaCardImage {
+    top: 20px;
+    object-fit: cover;
+    overflow: hidden;
+    width: 340px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.lamaCard h5 {
+    font-size: 25px;
+    color: #E3F2E0;
+    margin: 0;
+}
+
+.lamaCard p {
+    font-size: 25px;
+    color: #E3F2E0;
+    margin: 0;
+}
+
+.lamaCardtext {
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#errorText{
+    color: red;
+    font-size: 2.0em;
+    margin-left: 500px;
+}

@@ -1,0 +1,13 @@
+h5 {
+    font-size: 2.5em;
+}
+
+.errorText {
+    text-align: center;
+}
+
+.errorButton {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

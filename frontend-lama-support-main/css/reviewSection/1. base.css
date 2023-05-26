@@ -1,0 +1,26 @@
+#reviewRoot {
+    margin: auto;
+    padding-top: 45px;
+    max-width: 700px;
+}
+
+#reviewTitle {
+    text-align: center;
+    background-color: #034c3c;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.our-lama{
+    text-align: center;
+    background-color: #749C75;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    color: #E3F2E0;
+    margin-top: 40px;
+}

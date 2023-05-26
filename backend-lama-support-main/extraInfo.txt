@@ -1,0 +1,29 @@
+
+- Response Codes -
+Informational responses (100 – 199)
+Successful responses (200 – 299)
+Redirection messages (300 – 399)
+Client error responses (400 – 499)
+Server error responses (500 – 599)
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+HTTP POST request
+We use POST to create a new resource. A POST request requires a body in which you define the data of the entity to be created.
+A successful POST request would be a 200 response code. 
+
+HTTP GET request
+We use GET to read or retrieve a resource. A successful GET returns a response containing the information you requested.
+
+HTTP PUT request
+We use PUT to modify a resource. PUT updates the entire resource with data that is passed in the body payload. 
+If there is no resource that matches the request, it will create a new resource.
+
+HTTP PATCH request
+We use PATCH to modify a part of a resource. With PATCH, you only need to pass in the data that you want to update.
+
+HTTP DELETE request
+We use DELETE to delete a resource.
+
+https://www.freecodecamp.org/news/http-request-methods-explained/
+

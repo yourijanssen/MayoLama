@@ -1,0 +1,54 @@
+#loginForm{
+    width: 400px;
+    height: 300px;
+    max-width: 1000;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    background-color: #034C3C;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.loginInput{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    font-family: 'Homanje' sans-serif;
+    font-size: 15px;
+    margin-left: 70px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+#loginForm button{
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 125px;
+    border-radius: 20px;
+    border: 3px solid #034C3C;
+    background-color: #749C75;
+    color: #E3F2E0;
+    font-family: inherit;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#loginForm h3{
+    color: white;
+}
+
+.err{
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 80px;
+}
+
+.good{
+    color: green;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 80px;
+}
+

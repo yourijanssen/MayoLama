@@ -1,0 +1,130 @@
+#account {
+    width: 400px;
+    height: 600px;
+    margin-top: 200px;
+    margin-left: 600px;
+    margin-right: -50px;
+    margin-bottom: 200px;
+    align-items: center;
+    display:flex;
+    flex-flow: column;
+    background-color: #034C3C;
+    border-radius: 20px;
+    flex-wrap: nowrap;
+}
+
+.accountInput {
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    font-family: 'Homanje' sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 70px;
+    padding-left: 10px;
+    float: right;
+}
+
+.bioTextInput {
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    font-family: 'Homanje' sans-serif;
+    font-size: 15px;
+    margin-left: 70px;
+    margin-top: 20px;
+    padding-left: 10px;
+    float: right;
+}
+
+.accountButton {
+    width: 125px;
+    margin-top: 15px;
+    margin-left: 5px;
+    border-radius: 20px;
+    border: 3px solid #034C3C;
+    background-color: #749C75;
+    color: #E3F2E0;
+    font-family: inherit;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#accountButton {
+    display: flex;
+    flex-direction: row;
+}
+
+::placeholder {
+    color: #747574;
+}
+
+#accountInfo {
+    display: inline-block;
+    flex-direction: column;
+    color: white;
+}
+
+.labelInput {
+    margin-top: 35px;
+    float: left;
+}
+
+.bioLabel {
+    margin-top: 100px;
+    float: left;
+}
+
+.err {
+    color: red;
+}
+
+.good {
+    color: rgb(3, 181, 3);
+}
+
+#errorMes {
+    display: flex;
+    flex-flow: column;
+    order: 2;
+}
+
+#sellerLama {
+    display: block;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 300px 300px;
+    column-gap: 40px;
+    row-gap: 40px;
+    float: left;
+    margin-top: -20px;
+    overflow: scroll;
+    width: 0;
+    height: 0;
+}
+
+#editText {
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 30px;
+    color: #034C3C;
+}
+
+#errorText{
+    color: red;
+    font-size: 2.0em;
+    margin-left: 25px;
+}
+
+#lamaError{
+    width: 600px;
+}
+
+.our-lama{
+    text-align: center;
+    background-color: #749C75;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    color: #E3F2E0;
+    margin-top: 100px;
+}

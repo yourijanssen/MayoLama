@@ -1,0 +1,83 @@
+
+#footer {
+    background-color: #034C3C;
+    width: 100%;
+    margin-top: 100px;
+}
+
+#FooterRoot {
+    height: 200px;
+}
+
+.mayo-logo {
+    margin-left: 20px;
+    filter: invert(100%);
+    width: 300px;
+    margin-top: 30px;
+}
+
+.title-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: -130px;
+}
+
+#link-list-container {
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    row-gap: 1rem;
+    list-style-type: none;
+    font-size: 100%;
+    justify-content: space-around;
+}
+
+.link-title {
+    font-weight: 1000;
+    letter-spacing: 0.5rem;
+    font-size: 175%;
+    color: white;
+}
+
+.link-text {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+#link-text li{
+    margin: 10px;
+}
+
+.bottom-container {
+    background-color: #0A1128;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 20px;
+}
+
+#footer-social-icon {
+    width: 200px;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+
+}
+
+.copyright {
+    margin-left: 20px;
+    color: white;
+    font-size: 125%;
+    gap: 3rem;
+}
+
+svg,
+a {
+    fill: currentColor;
+    color: white;
+    margin: 10px;
+}

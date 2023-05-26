@@ -1,0 +1,119 @@
+.supportContainer {
+    display: flex;
+    padding: auto;
+    margin: 100px 30px 50px 50px;
+    justify-content: space-around;
+}
+
+
+.supOne {
+    float: left;
+    background-color: #749C75;
+    width: 20%;
+    height: 300px;
+    border: 1px;
+    border-style: solid;
+    margin: 0px 30px 0px 0px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    
+}
+
+.supTwo {
+    float: left;
+    background-color: #749C75;
+    width: 20%;
+    height: 300px;
+    border: 1px;
+    border-style: solid;
+    margin: 0px 30px 0px 0px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.supThree {
+    float: right;
+    background-color: #749C75;
+    width: 20%;
+    height: 300px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.supBenefitsClass {
+    box-sizing: border-box;
+    
+}
+
+.Price{
+    font-size: large;
+    text-align: center;
+    margin-top: 105px;
+    border-top: outset;
+    border-color: black;
+    border-radius: 10px;
+   
+}
+.titel{
+    font-size: x-large;
+    text-align: center;
+   border-bottom: outset;
+   border-color: #034C3C;
+   margin-top: 10px;
+   border-radius: 10px;
+}
+
+
+#btnOne {
+    width: 150px;
+    border-radius: 20px;
+    background-color: #034C3C;
+    color: #E3F2E0;
+    font-family: inherit;
+    font-size: 20px;
+    margin-left: 40px ;
+    text-align: center;
+}
+
+#btnTwo {
+    width: 150px;
+    border-radius: 20px;
+    background-color: #034C3C;
+    color: #E3F2E0;
+    font-family: inherit;
+    font-size: 20px;
+    margin-left: 40px ;
+}
+
+#btnThree {
+    width: 150px;
+    border-radius: 20px;
+    background-color: #034C3C;
+    color: #E3F2E0;
+    font-family: inherit;
+    font-size: 20px;
+    margin-left: 40px ;
+}
+
+#btnOne:hover {
+    border: 3px solid #E3F2E0;
+}
+
+#btnTwo:hover {
+    border: 3px solid #E3F2E0;
+}
+
+#btnThree:hover {
+    border: 3px solid #E3F2E0;
+}
+
+#popupSupMelding{
+    text-align: center;
+    font-size: 30px;
+    background-color: #749C75;
+    color: #034C3C;
+
+}
+

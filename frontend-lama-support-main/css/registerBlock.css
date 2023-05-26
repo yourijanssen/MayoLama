@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Homenaje&display=swap');
+
+#placeholderRegisterButton{
+    margin-top: 100px;
+}
+
+#registerBlock{
+    width: 600px;
+    height: 350px;
+    margin-left: 450px;
+    background-color: #034C3C;
+    border-radius: 20px;
+    max-width: 1000;
+    margin: auto;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.registerInput{
+    width: 550px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 10px;
+    align-self: center;
+    font-family: 'Homanje' sans-serif;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 0px;
+}
+
+#registerBlock h3 {
+    color: #E3F2E0;
+    padding: 0;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+#accountButtonSection{
+    width: 550px;
+    display: flex;
+    color: #E3F2E0;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+#accountButtonSection input{
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+#registerButton{
+    width: 150px;
+    border-radius: 20px;
+    border: 3px solid #034C3C;
+    background-color: #749C75;
+    color: #E3F2E0;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+#registerButton:hover{
+    border: 3px solid #E3F2E0;
+}
+
+.requirementGreen{
+    color: #749C75;
+}
+
+.requirementRed{
+    color: #d65656;
+}
+
+#requirementSection{
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+    justify-content: space-around;
+}
+
+.popupHidden{
+    width: 600px;
+    height: 150px;
+    visibility: hidden;
+    background-color: #749C75;
+    color: #034C3C;
+    border-radius: 20px;
+}
+
+.popupSucces{
+    width: 600px;
+    height: 150px;
+    display: flex;
+    background-color: #749C75;
+    color: #E3F2E0;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.popupFail{
+    width: 600px;
+    height: 150px;
+    display: flex;
+    background-color: #749C75;
+    color: #ce2626;
+    border-radius: 20px;
+    justify-content: center;
+}
+
